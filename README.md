@@ -1,10 +1,10 @@
-# 💰 Sistem Prediksi Pelunasan Piutang Pajak Daerah
+#Sistem Prediksi Pelunasan Piutang Pajak Daerah
 
-## 📋 Deskripsi Project
+## Deskripsi Project
 Project ini adalah aplikasi machine learning untuk memprediksi status pelunasan piutang pajak daerah. 
 Menggunakan algoritma Random Forest Classifier dengan akurasi 99.89%.
 
-## 🎯 Business Case
+## Business Case
 **Masalah**: Pemerintah daerah menghadapi tantangan dalam pengelolaan piutang pajak dengan 60% piutang masih belum lunas.
 
 **Solusi**: Sistem prediksi berbasis ML untuk:
@@ -13,7 +13,7 @@ Menggunakan algoritma Random Forest Classifier dengan akurasi 99.89%.
 - Early warning system piutang bermasalah
 - Strategi penagihan personal
 
-## 📊 Dataset
+## Dataset
 - **Sumber**: Data penagihan piutang pajak daerah 2012-2025
 - **Jumlah records**: 4,539
 - **Features**: 
@@ -23,7 +23,7 @@ Menggunakan algoritma Random Forest Classifier dengan akurasi 99.89%.
   - REALISASI PIUTANG (pembayaran)
   - PERSENTASE_TERBAYAR
 
-## 🤖 Model Machine Learning
+## Model Machine Learning
 
 ### Model yang Diuji
 1. **Logistic Regression** - Accuracy: 89.10%
@@ -43,7 +43,7 @@ Menggunakan algoritma Random Forest Classifier dengan akurasi 99.89%.
 4. SALDO AWAL: 10.53%
 5. KATEGORI PAJAK: 1.85%
 
-## 🚀 Cara Menjalankan
+## Cara Menjalankan
 
 ### Prerequisites
 ```bash
@@ -67,7 +67,7 @@ streamlit run app.py
 
 Aplikasi akan terbuka di browser pada `http://localhost:8501`
 
-## 📁 Struktur Project
+## Struktur Project
 ```
 project-folder/
 │
@@ -81,7 +81,7 @@ project-folder/
 └── README.md                     # Dokumentasi
 ```
 
-## 💻 Cara Menggunakan Aplikasi
+## Cara Menggunakan Aplikasi
 
 1. Buka aplikasi di browser
 2. Di sidebar, masukkan:
@@ -92,7 +92,7 @@ project-folder/
 3. Klik tombol "PREDIKSI STATUS PELUNASAN"
 4. Lihat hasil prediksi dan rekomendasi
 
-## 📈 Hasil Evaluasi
+## Hasil Evaluasi
 
 ### Confusion Matrix (Test Set)
 ```
@@ -109,20 +109,12 @@ Belum Lunas     1.00      1.00      1.00       545
 Lunas           1.00      1.00      1.00       363
 ```
 
-## 🎓 Informasi Akademik
+## Informasi Akademik
 - **Mata Kuliah**: Machine Learning
 - **Program Studi**: Magister Informatika
 - **Universitas**: Universitas Islam Indonesia
 - **Dosen**: Dr. Syarif Hidayat, S.Kom., M.I.T.
 - **Ujian**: UTS Semester Ganjil 2025/2026
-
-## 📝 Catatan
-- Model ini dilatih dengan data historis tahun 2012-2025
-- Prediksi bersifat probabilistik dan sebaiknya dikombinasikan dengan analisis manual
-- Untuk deployment production, pertimbangkan retraining berkala dengan data terbaru
-
-## 📧 Kontak
-Untuk pertanyaan atau feedback, silakan hubungi melalui platform pembelajaran.
 
 ---
 © 2025 - Sistem Prediksi Piutang Pajak Daerah
